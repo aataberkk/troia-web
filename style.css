@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(245, 230, 213);
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+
+  /* background-color: rgb(147, 157, 33); */
+}
+
+nav li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav a {
+  background-color: rgb(186, 196, 78);
+
+  border: none;
+
+  color: white;
+
+  padding: 15px 32px;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 25px;
+
+  margin: 4px 2px;
+
+  /* list-style: none; */
+  /* cursor: none; */
+  /* display: block; */
+
+  border-radius: 20px;
+}
+
+.urun {
+  height: 300px;
+  width: 250px;
+
+  /* border-radius: 20px; */
+  /* margin-right: 16px; */
+
+  padding: 50px;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+.urun img {
+  height: 200px;
+  width: 250px;
+}
+
+h1 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+#iletisim {
+  padding: 20px 20px;
+  background-color: #e9e9f1;
+  border: 1px solid #bebed6 lightseagreen;
+  /* resize: vertical; */
+  /* text-align: center; */
+  /* box-sizing: border-box; */
+}
+
+#mesaj {
+  resize: none;
+  width: 300px;
+  height: 200px;
+  /* position: relative; */
+}
+
+footer {
+  background-color: #c3bdbd;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
